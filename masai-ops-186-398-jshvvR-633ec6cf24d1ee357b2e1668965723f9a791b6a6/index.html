@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Form</title>
+    <style>
+      /* Write all necessery css here  */
+      h1{
+        text-align: center;
+      }
+      .container{
+        display: flex;
+        justify-content: space-evenly;
+        
+      }
+      .container>div{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        
+        width: 35%;
+        padding-bottom: 5px;
+      }
+      input{
+        display: block;
+        padding: 20px;
+        width: 70%;
+        margin: auto;
+        margin-top: 5px;
+        font-size: larger;
+        font-weight: bolder;
+        
+      }
+      button{
+        
+        width: 80%;
+        font-size: larger;
+        height: 50px;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Signup Form</h1>
+        <!-- Create the Signup form here  -->
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email Address">
+        <input type="text" placeholder="Country">
+        <input type="text" placeholder="Phone">
+        <input type="text" placeholder="Password">
+        <button>Create Account</button>
+    </div>
+    <div>
+      <h1>Signin Form</h1>
+      <!-- Create the Signin Form Here  -->
+      <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email Address">
+        <input type="text" placeholder="Password">
+        <button>Signin</button>
+        
+    </div>
+    </div>
+  </body>
+</html>
+<!-- index.html will contain a div with class name container
+the above container should have a display property flex
+It should have two forms Signup Form and Signin Form
+Headings are given in h1 tag
+the headings should have text-align as center
+Inside the Signup form, there should be the following input fields
+Name (type is text and placeholder is Name)
+Email Address (type is email and placeholder is Email Address)
+Country (type is text and placeholder is Country)
+Phone (type is number and placeholder is Phone)
+Password (type is password and placeholder is Password )
+Create Account (type is submit and value is Create Account)
+Inside the Sign in form, there should be the following input fields:-
+Name (type is text and placeholder is Name)
+Email Address (type is email and placeholder is Email Address)
+Password (type is password and placeholder is Password )
+Signin (type is submit and value is Signin)
+Please make sure each input field has an appropriate type attribute.
+Both the forms should be side by side using flex.
+add the CSS in the boilerplate as mentioned . -->
